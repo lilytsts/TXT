@@ -1,0 +1,4 @@
+name: Liliya Tsikul,
+age: 33
+number of pets: 0,
+expected salary: 1000
