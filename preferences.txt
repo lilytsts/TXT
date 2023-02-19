@@ -1,0 +1,5 @@
+favorite movie: The Grand Budapest Hotel,
+favorite series: What We Do in the Shadows,
+favorite food: Uzbek palov,
+favorite season: summer,
+country of dreams: USA
