@@ -1,10 +1,26 @@
-Ошибка 404 при попытке подписаться на рассылку на странице подписки 
-Шаги:
-Перейти на страницу подписки по адресу {}
-Ввести электронный адрес {} в поле "Адрес"
-Нажать кнопку "Подписаться"
-Ожидаемы результат: Получение success страницы "Спасибо! Вы успешно подписались"
-Фактический результат: Возникает ошибка 404
-Окружение: Mac Os 12.5 Версия Chrome 109.0.5414.119
-Приоритет: Высокий 
-Вложение: Скринкаст 
+Title: Error when attempting to login with Google account
+
+Steps to Reproduce:
+
+Go to the login page
+Click on the "Login with Google" button
+Enter valid Google credentials
+Click the "Login" button
+Expected Result:
+User should be logged in and redirected to the dashboard.
+
+Actual Result:
+An error message appears that says "Error: invalid_request Invalid parameter value for redirect_uri: Missing scheme: www.example.com/login/google"
+
+Environment:
+
+Browser: Chrome version 98.0.4758.102
+Operating system: Windows 10
+Device: Desktop PC
+Notes:
+
+This issue does not occur when logging in with a username and password.
+This issue occurs consistently every time the "Login with Google" button is clicked.
+The same error message appears when attempting to login with a Google account on mobile devices.
+Screenshot:
+[attach a screenshot if possible]
